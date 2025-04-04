@@ -1,0 +1,28 @@
+{
+    "name": "graphql",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "Clem Onawole",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "start": "node --es-module-specifier-resolution=node src/server.js",
+        "dev": "nodemon --es-module-specifier-resolution=node src/server.js"
+    },
+    "keywords": [],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "dependencies": {
+        "fastify": "^5.2.2",
+        "fastify-gql": "^5.8.2",
+        "fs": "^0.0.1-security",
+        "graphql": "^16.10.0",
+        "https": "^1.0.0",
+        "mercurius": "^16.1.0"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

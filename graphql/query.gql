@@ -1,0 +1,27 @@
+query {
+  getMessage
+}
+
+{
+  books {
+    id
+    title
+    author
+  }
+}
+
+{
+  item (id:3){
+    id
+    author
+    title
+  }
+}
+
+{
+  book (id:7){
+    title
+    id
+    author
+  }
+}

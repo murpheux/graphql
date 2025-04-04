@@ -1,0 +1,3 @@
+mutation {
+  sendMessage(message: "Hello from Fastify!")
+}

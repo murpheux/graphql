@@ -1,0 +1,1 @@
+curl -k -X POST https://localhost:3000/graphql -H "Content-Type: application/json" -d '{ "query": "query { books { title id }}" }'
